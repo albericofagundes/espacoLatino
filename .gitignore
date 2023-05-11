@@ -1,0 +1,44 @@
+# # Arquivos e diretórios do WordPress
+wp-admin/
+# wp-includes/
+# wp-content/
+
+# # Arquivos de configuração principais
+wp-config.php
+# # wp-config-sample.php
+
+# # Backup de banco de dados
+# *.sql
+# *.sql.gz
+
+# # Plugins e temas
+wp-content/plugins/
+wp-content/themes/
+wp-content/languages/
+wp-includes/
+
+# # Arquivos de cache e temporários
+wp-content/cache/
+# wp-content/uploads/
+
+# # Arquivos de log
+*.log
+
+# # Arquivos de exportação
+# *.xml
+
+# # Ignore todos os arquivos na raiz, exceto o novo template
+# /*
+
+# # Exceto o novo template
+!/wp-content/themes/espaco/
+!/wp-content/themes/espaco/
+
+
+# # Exceto os arquivos de configuração do novo template
+# /wp-content/themes/espaco/style.css
+# /wp-content/themes/espaco/index.php
+
+# # Exceto os arquivos do novo template
+# !/wp-content/themes/espaco/*.php
+# !/wp-content/themes/espaco/*.css
