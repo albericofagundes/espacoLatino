@@ -116,7 +116,7 @@
           <li>Animação</li>
         </a>
       </ul>
-      <img src="<?php echo get_stylesheet_directory_uri() ?>/img/imagem-inicial.png" />
+      <img src="<?php echo get_stylesheet_directory_uri() ?>//img/imagem-inicial.png" alt="imagem de uma mulher em pose de dança" />
     </div>
   </section>
   <section id="page-title">
@@ -149,23 +149,23 @@
       <div class="item-coreografia">
         Coreografias pensadas e desenvolvidas <br />
         exclusivamente para <b>casamentos</b>
-        <img src="img/casamento.png" />
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/casamento.png" />
       </div>
       <div class="item-coreografia item-2">
         Coreografias pensadas e desenvolvidas <br />
         exclusivamente para festa de <b>15 anos</b>
-        <img src="img/15anos.png" />
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/15anos.png" />
       </div>
       <div class="item-coreografia item-3">
         Eventos em geral
-        <img src="img/mesa-item-3.png" />
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/mesa-item-3.png" />
       </div>
       <a href="coreografia.php">Atendemos diversos tipos de eventos, <b>confira</b></a>
     </div>
   </section>
   <section id="animacao">
     <div class="content">
-      <img src="img/animacao.png" />
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/img/animacao.png" />
       <p class="titulo">Animação e interação</p>
       <p class="conteudo">
         Possuímos uma equipe para animar sua festa<br />
@@ -187,7 +187,7 @@
         <b>Funk</b>
       </p>
       <a href="horarios/index.html">
-        <img src="img/aulas.png" />
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/aulas.png" />
       </a>
     </div>
   </section>
@@ -214,7 +214,7 @@
           </fieldset>
         </form>
       </div>
-      <img src="img/bg-formulario.png" />
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/img/bg-formulario.png" />
     </div>
   </section>
 </body>
