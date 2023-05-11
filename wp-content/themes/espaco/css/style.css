@@ -1,0 +1,336 @@
+@font-face {
+  font-family: mistralRegular;
+  src: url(../fonts/mistral.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+  text-decoration: none;
+  list-style-type: none;
+}
+.content {
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+}
+
+.top-head > .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+#topo p {
+  color: #340000;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+#topo h1 {
+  text-indent: -3000px;
+}
+
+#topo img {
+  position: absolute;
+  z-index: 2;
+  top: -49px;
+  right: 40px;
+}
+
+#topo ul {
+  margin: 15px 0 30px 0;
+}
+
+#topo ul a li {
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  margin-right: 15px;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#topo ul a#item-1 li {
+  background: #d60000; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #d60000 0%,
+    #900000 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #d60000 0%,
+    #900000 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #d60000 0%,
+    #900000 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d60000', endColorstr='#900000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#topo ul a#item-2 li {
+  background: #025da4; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #025da4 0%,
+    #72aaff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #025da4 0%,
+    #72aaff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #025da4 0%,
+    #72aaff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#025da4	', endColorstr='#72aaff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#page-title {
+  background: #f7f7f7;
+  border-bottom: 2px solid #4a4a4a;
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 154px;
+}
+
+#page-title p {
+  font-family: mistralRegular;
+}
+
+#galeria {
+  height: 252px;
+}
+#galeria p.titulo {
+  color: #424242;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 60px 0;
+}
+#galeria p.conteudo {
+  color: #6c6c6c;
+  font-size: 20px;
+}
+#galeria a {
+  height: 313px;
+  width: 257px;
+  background: url(../img/galeria.png) no-repeat center;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -61px;
+}
+
+#coreografia {
+  background: #f7f7f7;
+  padding-bottom: 60px;
+}
+#coreografia p.titulo {
+  color: #960000;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 60px 0;
+  text-align: center;
+}
+#coreografia .item-coreografia {
+  border: 1px solid #777;
+  border-radius: 3px;
+  width: 468px;
+  height: 73px;
+  display: inline-block;
+  color: #323232;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 13px;
+  padding-left: 20px;
+  position: relative;
+}
+#coreografia .item-coreografia img {
+  width: 72px;
+  height: 151px;
+  position: absolute;
+  right: 10px;
+  top: -30px;
+}
+#coreografia .item-2 {
+  float: right;
+}
+#coreografia .item-2 img {
+  width: 111px;
+  height: 149px;
+}
+#coreografia .item-3 {
+  margin-top: 40px;
+  line-height: 55px;
+}
+#coreografia .item-3 img {
+  top: -7px;
+  right: -15px;
+  height: 110px;
+  width: 143px;
+}
+
+#coreografia a {
+  background: #b9001c;
+  color: #fff;
+  width: 488px;
+  position: absolute;
+  height: 88px;
+  display: inline-block;
+  border-radius: 3px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 21px;
+}
+
+#animacao {
+  height: 300px;
+}
+#animacao img {
+  position: absolute;
+  top: 0px;
+  left: -30px;
+}
+#animacao p.titulo {
+  display: inline-block;
+  color: #57b89a;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 480px;
+  margin-top: 90px;
+  width: 640px;
+  text-transform: uppercase;
+}
+#animacao p.conteudo {
+  color: #323232;
+  font-size: 20px;
+  display: inline-block;
+  width: 640px;
+  margin-left: 480px;
+}
+#animacao p.conteudo a {
+  color: #006949;
+}
+
+#aulas {
+  background: #0077db; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #0077db 0%,
+    #035ea7 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #0077db 0%,
+    #035ea7 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #0077db 0%,
+    #035ea7 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0077db', endColorstr='#035ea7',GradientType=0 ); /* IE6-9 */
+  height: 310px;
+}
+
+#aulas p.titulo {
+  color: #002848;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 45px;
+}
+#aulas p.conteudo {
+  color: #fff;
+  font-size: 20px;
+}
+#aulas p.conteudo a {
+  color: #002848;
+}
+#aulas img {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+#form {
+  background: #f7f7f7;
+  height: 390px;
+}
+#form form {
+  width: 550px;
+}
+#form form fieldset {
+  border: none;
+}
+#form form fieldset input {
+  width: 251px;
+  height: 50px;
+  background: #efefef;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+
+#fomulario {
+  width: 100%;
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  background: #f7f7f7;
+}
+#fomulario div.formulario {
+  width: 560px;
+}
+#fomulario div.formulario form fieldset {
+  border: none;
+  margin-bottom: 40px;
+}
+#fomulario div.formulario form fieldset div.clear {
+  width: 100%;
+  clear: both;
+  margin-top: 10px;
+}
+#fomulario div.formulario form fieldset div.clear input {
+  background: #efefef;
+  border: #d8d8d8 1px solid;
+  border-radius: 3px;
+  height: 50px;
+  width: 44%;
+  margin-right: 1%;
+  padding: 0 2%;
+  outline: none;
+}
+#fomulario div.formulario form fieldset div.clear textarea {
+  background: #efefef;
+  border: #d8d8d8 1px solid;
+  border-radius: 3px;
+  width: 94%;
+  padding: 2%;
+  resize: none;
+  height: 80px;
+  outline: none;
+}
+.inputEnviar {
+  cursor: pointer;
+}
+#fomulario img {
+  width: 234px;
+  height: 224px;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}

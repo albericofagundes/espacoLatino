@@ -13,7 +13,9 @@ wp-config.php
 
 # # Plugins e temas
 wp-content/plugins/
-wp-content/themes/
+wp-content/themes/twentytwentyone
+wp-content/themes/twentytwentythree
+wp-content/themes/twentytwentytwo
 wp-content/languages/
 wp-includes/
 

@@ -1,0 +1,50 @@
+/*
+Theme Name: Espaço Latino
+Theme URI: URL do seu tema
+Author: Alberico Fagundes
+Author URI: Sua URL
+Description: Espaço Latino
+Version: 1.0
+License:
+License URI: 
+Tags: dança,musica
+*/
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Estilos do cabeçalho */
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilos do conteúdo principal */
+#content {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos da barra lateral */
+#sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Estilos do rodapé */
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
