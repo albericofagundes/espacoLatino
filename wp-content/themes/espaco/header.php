@@ -13,7 +13,7 @@
     <link href="<?php echo get_stylesheet_directory_uri() ?>/css/style.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Espaço Latino</title>
+    <title><?php bloginfo('name'); ?></title>
     <!-- Header Wordpress -->
     <?php wp_head(); ?>
     <!-- Fecha Header Wordpress -->
